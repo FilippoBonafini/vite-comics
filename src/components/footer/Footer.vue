@@ -48,6 +48,10 @@ export default {
         position: relative;
         overflow: hidden;
 
+        .menu {
+            z-index: 1;
+        }
+
         .logo {
             position: absolute;
             right: 0;
