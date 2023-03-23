@@ -42,4 +42,11 @@ export default {
 <style lang="scss">
 // RESET DOCUMENTO
 @use './styles/Reset.scss' as *;
+
+
+footer {
+    background-image: url(src/assets/img/background/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 </style>

@@ -13,7 +13,9 @@ export default {
 
 <!-- HTML  -->
 <template>
-    FOOTER-LOGO
+    <div>
+        <img src="src/assets/img/logo/dc-logo-bg.png" alt="">
+    </div>
 </template>
 
 <!-- SCSS  -->
