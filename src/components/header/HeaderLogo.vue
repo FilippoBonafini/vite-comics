@@ -5,7 +5,9 @@ export default {
     // STRUTTURA CLASSICA DI VUE 
     data() {
         return {
-
+            logoSrc: "src/assets/img/logo/dc-logo.png",
+            logoAlt: "CD",
+            logoLink: "#"
         }
     }
 }
@@ -13,8 +15,19 @@ export default {
 
 <!-- HTML  -->
 <template>
-    HEADER-LOGO
+    <div>
+        <a :href="logoLink"><img :src="logoSrc" :alt="logoAlt"></a>
+    </div>
 </template>
 
 <!-- SCSS  -->
-<style lang="scss" scoped ></style>
+<style lang="scss" scoped >
+div {
+    height: 100px;
+    width: 100px;
+
+    img {
+        width: 100%;
+    }
+}
+</style>

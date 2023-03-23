@@ -20,8 +20,12 @@ export default {
 
 <!-- HTML  -->
 <template>
-    <MainSectionEmpty></MainSectionEmpty>
-    <MainMenu></MainMenu>
+    <section class="section Empty">
+        <MainSectionEmpty></MainSectionEmpty>
+    </section>
+    <section class="section MainMenu">
+        <MainMenu></MainMenu>
+    </section>
 </template>
 
 <!-- SCSS  -->

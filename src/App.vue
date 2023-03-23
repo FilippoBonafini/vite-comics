@@ -41,24 +41,5 @@ export default {
 <!-- SCSS  -->
 <style lang="scss">
 // RESET DOCUMENTO
-@use './styles/Reset.css' as *;
-
-.body {
-    display: flex;
-    flex-direction: column;
-    height: 400px; //DEBUG 
-
-    header {
-        background-color: blue;
-    }
-
-    main {
-        background-color: red;
-        flex-grow: 1;
-    }
-
-    footer {
-        background-color: yellow;
-    }
-}
+@use './styles/Reset.scss' as *;
 </style>

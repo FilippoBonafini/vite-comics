@@ -20,9 +20,30 @@ export default {
 
 <!-- HTML  -->
 <template>
-    <HeaderLogo></HeaderLogo>
-    <HeaderMenu></HeaderMenu>
+    <div class="header">
+        <div class="headerContainer">
+            <div class="headerLogo">
+                <HeaderLogo></HeaderLogo>
+            </div>
+            <div class="headerNav">
+                <HeaderMenu></HeaderMenu>
+            </div>
+        </div>
+    </div>
 </template>
 
 <!-- SCSS  -->
-<style lang="scss" scoped ></style>
+<style lang="scss" scoped >
+.header {
+    background-color: rgb(255, 255, 255);
+
+    .headerContainer {
+        margin: 0 auto;
+        max-width: 1500px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+}
+</style>
