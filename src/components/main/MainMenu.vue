@@ -53,12 +53,15 @@ export default {
 
 <!-- SCSS  -->
 <style lang="scss" scoped >
+@use 'src/styles/Variables.scss' as *;
+
 .container {
-    background-color: darkblue;
+    background-color: $my-blu;
+    ;
 
     ul {
         display: flex;
-        max-width: 1500px;
+        max-width: $my-container-max-width;
         margin: auto;
         justify-content: space-around;
         align-items: center;
@@ -83,13 +86,13 @@ export default {
 
             .text {
                 text-transform: uppercase;
-                color: white;
+                color: $my-white;
                 padding-left: 20px;
             }
 
 
             &:hover {
-                background-color: rgb(43, 62, 226);
+                background-color: $my-secondary-blu;
             }
         }
     }

@@ -25,4 +25,10 @@ App.vue
     |-FooterMenu.vue
     |
     |-FooterLogo.vue
+    |
+    |-FooterEnd.vue
+        |
+        |FooterButton.vue
+        |
+        |FooterSocial.vue
 ```

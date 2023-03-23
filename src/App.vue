@@ -42,6 +42,7 @@ export default {
 <style lang="scss">
 // RESET DOCUMENTO
 @use './styles/Reset.scss' as *;
+@use './styles/Fonts.scss' as *;
 
 
 footer {

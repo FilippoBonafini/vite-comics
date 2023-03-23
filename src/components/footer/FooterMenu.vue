@@ -162,7 +162,9 @@ export default {
         <nav>
             <ul v-for="element in menu">
                 <li class="liHeader">{{ element.sectionName }}</li>
-                <li class="lilinks" v-for="listItem in element.content">{{ listItem.text }}</li>
+                <li class="lilinks" v-for="listItem in element.content"><a :href="listItem.link"
+                        :target="listItem.target">{{ listItem.text }}</a>
+                </li>
             </ul>
         </nav>
     </div>
@@ -170,18 +172,20 @@ export default {
 
 <!-- SCSS  -->
 <style lang="scss" scoped >
+@use 'src/styles/Variables.scss' as *;
+
 nav {
-    color: white;
+    color: $my-white;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    max-height: 400px;
+    max-height: 500px;
     font-size: 23px;
     padding-top: 20px;
     padding-bottom: 40px;
 
     ul {
-        padding: 0 20px;
+        padding: 20px;
 
         .liHeader {
             font-size: 26px;
@@ -189,9 +193,13 @@ nav {
             font-weight: bold;
         }
 
-        .lilinks {
+        .lilinks a {
             font-size: 19px;
-            color: rgb(187, 187, 187);
+            color: $my-secondary-grey;
+
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }

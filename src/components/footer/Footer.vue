@@ -3,13 +3,13 @@
 // IMPORTO I SOTTOCOMPONENTI 
 import FooterLogo from './FooterLogo.vue';
 import FooterMenu from './FooterMenu.vue';
-import FooterSocial from './FooterSocial.vue';
+import FooterEnd from './FooterEnd.vue';
 // DICHIARO COSA VOGLIO ESPORTARE 
 export default {
     components: {
         FooterLogo,
         FooterMenu,
-        FooterSocial
+        FooterEnd
     },
     // STRUTTURA CLASSICA DI VUE 
     data() {
@@ -33,20 +33,23 @@ export default {
             </div>
         </div>
         <div class="contacts">
-            <FooterSocial></FooterSocial>
+            <FooterEnd></FooterEnd>
         </div>
     </div>
 </template>
 
 <!-- SCSS  -->
 <style lang="scss" scoped >
+@use 'src/styles/Variables.scss' as *;
+
 .container {
     .content {
-        max-width: 1500px;
+        max-width: $my-container-max-width;
         margin: auto;
         display: flex;
         position: relative;
         overflow: hidden;
+        padding: 30px 0;
 
         .menu {
             z-index: 1;
@@ -55,12 +58,12 @@ export default {
         .logo {
             position: absolute;
             right: 0;
-            top: -80px;
+            top: -40px;
         }
     }
 
     .contacts {
-        background-color: red;
+        background-color: $my-grey;
     }
 }
 </style>

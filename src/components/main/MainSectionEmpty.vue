@@ -20,14 +20,16 @@ export default {
 
 <!-- SCSS  -->
 <style lang="scss" scoped >
+@use 'src/styles/Variables.scss' as *;
+
 .sectionContainer {
     font-size: 40px;
-    color: white;
-    background-color: black;
+    color: $my-white;
+    background-color: $my-black;
 
 
     .content {
-        max-width: 1500px;
+        max-width: $my-container-max-width;
         margin: auto;
         padding: 50px 0;
     }

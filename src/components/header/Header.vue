@@ -34,12 +34,14 @@ export default {
 
 <!-- SCSS  -->
 <style lang="scss" scoped >
+@use 'src/styles/Variables.scss' as *;
+
 .header {
-    background-color: rgb(255, 255, 255);
+    background-color: $my-white;
 
     .headerContainer {
         margin: 0 auto;
-        max-width: 1500px;
+        max-width: $my-container-max-width;
         display: flex;
         justify-content: space-between;
         align-items: center;

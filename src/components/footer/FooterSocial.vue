@@ -5,7 +5,43 @@ export default {
     // STRUTTURA CLASSICA DI VUE 
     data() {
         return {
+            links: [
+                {
+                    name: 'Facebook',
+                    link: '#',
+                    logo: 'src/assets/img/social-icons/footer-facebook.png',
+                    target: '_blank'
 
+                },
+                {
+                    name: 'Twitter',
+                    link: '#',
+                    logo: 'src/assets/img/social-icons/footer-twitter.png',
+                    target: '_blank'
+
+                },
+                {
+                    name: 'You-tube',
+                    link: '#',
+                    logo: 'src/assets/img/social-icons/footer-youtube.png',
+                    target: '_blank'
+
+                },
+                {
+                    name: 'Pinterest',
+                    link: '#',
+                    logo: 'src/assets/img/social-icons/footer-pinterest.png',
+                    target: '_blank'
+
+                },
+                {
+                    name: 'Periscope',
+                    link: '#',
+                    logo: 'src/assets/img/social-icons/footer-periscope.png',
+                    target: '_blank'
+
+                }
+            ]
         }
     }
 }
@@ -14,22 +50,41 @@ export default {
 <!-- HTML  -->
 <template>
     <div class="container">
-        <div class="content">
-            <div class="button">button</div>
-            <div class="social">social</div>
-        </div>
+        <h3>FOLLOW US</h3>
+        <nav>
+            <ul>
+                <li v-for="link in links">
+                    <a :href="link.link" :target="link.target">
+                        <img :src="link.logo" :alt="link.name">
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </div>
 </template>
 
 <!-- SCSS  -->
 <style lang="scss" scoped >
-.container {
-    max-width: 1500px;
-    margin: auto;
+@use 'src/styles/Variables.scss' as *;
 
-    .content {
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    h3 {
+        color: $my-blu;
+    }
+
+    ul {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
+
+        li {
+            padding: 0 6px;
+        }
     }
 }
 </style>

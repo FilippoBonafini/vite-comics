@@ -9,52 +9,52 @@ export default {
                 {
                     text: 'Characters',
                     link: '#',
-                    terget: '_blank'
+                    target: '_self'
                 },
                 {
                     text: 'Comics',
                     link: '#',
-                    terget: '_blank'
+                    target: '_self'
                 },
                 {
                     text: 'Movies',
                     link: '#',
-                    terget: '_blank'
+                    target: '_self'
                 },
                 {
                     text: 'TV',
                     link: '#',
-                    terget: '_blank'
+                    target: '_self'
                 },
                 {
                     text: 'Games',
                     link: '#',
-                    terget: '_blank'
+                    target: '_self'
                 },
                 {
                     text: 'Collectibles',
                     link: '#',
-                    terget: '_blank'
+                    target: '_self'
                 },
                 {
                     text: 'Videos',
                     link: '#',
-                    terget: '_blank'
+                    target: '_self'
                 },
                 {
                     text: 'Fans',
                     link: '#',
-                    terget: '_blank'
+                    target: '_self'
                 },
                 {
                     text: 'News',
                     link: '#',
-                    terget: '_blank'
+                    target: '_self'
                 },
                 {
                     text: 'Shop',
                     link: '#',
-                    terget: '_blank'
+                    target: '_self'
                 },
             ]
         }
@@ -66,13 +66,15 @@ export default {
 <template>
     <nav>
         <ul>
-            <li v-for="element in menu"><a :href="element.link">{{ element.text }}</a></li>
+            <li v-for="element in menu"><a :href="element.link" :target="element.target">{{ element.text }}</a></li>
         </ul>
     </nav>
 </template>
 
 <!-- SCSS  -->
 <style lang="scss" scoped >
+@use 'src/styles/Variables.scss' as *;
+
 nav {
     ul {
         display: flex;
@@ -84,11 +86,11 @@ nav {
 
             &:hover {
                 cursor: pointer;
-                border-bottom: 10px inset blue;
+                background: linear-gradient(180deg, $my-white 95%, $my-blu 5%);
             }
 
             &:hover a {
-                color: blue;
+                color: $my-blu;
             }
         }
     }
