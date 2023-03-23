@@ -45,6 +45,7 @@ export default {
 @use './styles/Fonts.scss' as *;
 
 
+
 footer {
     background-image: url(src/assets/img/background/footer-bg.jpg);
     background-repeat: no-repeat;
