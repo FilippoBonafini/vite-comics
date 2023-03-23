@@ -1,13 +1,13 @@
 <!-- JS  -->
 <script>
 // IMPORTO I SOTTOCOMPONENTI 
-import FooterLogo from './FooterLogo.vue';
-import FooterMenu from './FooterMenu.vue';
+import MainMenu from './MainMenu.vue';
+import MainSectionEmpty from './MainSectionEmpty.vue';
 // DICHIARO COSA VOGLIO ESPORTARE 
 export default {
     components: {
-        FooterLogo,
-        FooterMenu
+        MainMenu,
+        MainSectionEmpty
     },
     // STRUTTURA CLASSICA DI VUE 
     data() {
@@ -20,8 +20,8 @@ export default {
 
 <!-- HTML  -->
 <template>
-    <FooterMenu></FooterMenu>
-    <FooterLogo></FooterLogo>
+    <MainSectionEmpty></MainSectionEmpty>
+    <MainMenu></MainMenu>
 </template>
 
 <!-- SCSS  -->
