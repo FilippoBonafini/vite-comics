@@ -11,6 +11,8 @@ App.vue
 |   |-HeaderLogo.vue
 |   |
 |   |-HeaderNav.vue
+|   |
+|   |-Jumbo.vue
 |       
 |       
 |-MAIN
@@ -28,7 +30,7 @@ App.vue
     |
     |-FooterEnd.vue
         |
-        |FooterButton.vue
+        |-FooterButton.vue
         |
-        |FooterSocial.vue
+        |-FooterSocial.vue
 ```

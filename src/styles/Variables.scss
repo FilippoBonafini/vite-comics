@@ -10,6 +10,6 @@ $my-white: #ffffff;
 $my-container-max-width: 1400px;
 
 // FONTS 
-@import url(Fonts.scss);
+@use 'Fonts.scss';
 
 $my-primary-font: 'Open Sans', sans-serif;
