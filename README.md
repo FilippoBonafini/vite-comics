@@ -17,7 +17,11 @@ App.vue
 |       
 |-MAIN
 |   |
-|   |-MainSectionEmpty.vue
+|   |-MainSectionCards.vue
+|   |   |
+|   |   |-Card.vue
+|   |   |
+|   |   |-Button.vue
 |   |
 |   |-MainMenu.vue
 |       

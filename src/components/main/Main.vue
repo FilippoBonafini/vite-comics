@@ -2,12 +2,12 @@
 <script>
 // IMPORTO I SOTTOCOMPONENTI 
 import MainMenu from './MainMenu.vue';
-import MainSectionEmpty from './MainSectionEmpty.vue';
+import MainSectionCards from './MainSectionCards.vue';
 // DICHIARO COSA VOGLIO ESPORTARE 
 export default {
     components: {
         MainMenu,
-        MainSectionEmpty
+        MainSectionCards
     },
     // STRUTTURA CLASSICA DI VUE 
     data() {
@@ -20,8 +20,8 @@ export default {
 
 <!-- HTML  -->
 <template>
-    <section class="section Empty">
-        <MainSectionEmpty></MainSectionEmpty>
+    <section class="section">
+        <MainSectionCards></MainSectionCards>
     </section>
     <section class="section MainMenu">
         <MainMenu></MainMenu>
