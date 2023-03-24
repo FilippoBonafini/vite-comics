@@ -22,7 +22,7 @@ export default {
 @use 'src/styles/Variables.scss' as *;
 
 .jumbo {
-    background-image: url('src/assets/img/background/jumbotron.jpg');
+    background-image: url('img/background/jumbotron.jpg');
     background-size: cover;
     min-height: 500px;
 }

@@ -14,7 +14,7 @@ export default {
 <!-- HTML  -->
 <template>
     <div>
-        <img src="src/assets/img/logo/dc-logo-bg.png" alt="">
+        <img src="img/logo/dc-logo-bg.png" alt="">
     </div>
 </template>
 

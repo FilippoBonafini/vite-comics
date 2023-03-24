@@ -5,7 +5,7 @@ export default {
     // STRUTTURA CLASSICA DI VUE 
     data() {
         return {
-            logoSrc: "src/assets/img/logo/dc-logo.png",
+            logoSrc: "img/logo/dc-logo.png",
             logoAlt: "CD",
             logoLink: "#"
         }

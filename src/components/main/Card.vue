@@ -28,4 +28,13 @@ export default {
 </template>
 
 <!-- SCSS  -->
-<style lang="scss" scoped ></style>
+<style lang="scss" scoped >
+.card:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+    img {
+        opacity: 0.5;
+    }
+}
+</style>

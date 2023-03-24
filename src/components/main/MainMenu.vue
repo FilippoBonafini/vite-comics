@@ -7,27 +7,27 @@ export default {
         return {
             menu: [
                 {
-                    logo: 'src/assets/img/menu-icons/buy-comics-digital-comics.png',
+                    logo: 'img/menu-icons/buy-comics-digital-comics.png',
                     text: 'Digital Comics',
                     link: '#'
                 },
                 {
-                    logo: 'src/assets/img/menu-icons/buy-comics-merchandise.png',
+                    logo: 'img/menu-icons/buy-comics-merchandise.png',
                     text: 'Dc mechandise',
                     link: '#'
                 },
                 {
-                    logo: 'src/assets/img/menu-icons/buy-comics-subscriptions.png',
+                    logo: 'img/menu-icons/buy-comics-subscriptions.png',
                     text: 'subiscription',
                     link: '#'
                 },
                 {
-                    logo: 'src/assets/img/menu-icons/buy-comics-shop-locator.png',
+                    logo: 'img/menu-icons/buy-comics-shop-locator.png',
                     text: 'comics shop locator',
                     link: '#'
                 },
                 {
-                    logo: 'src/assets/img/menu-icons/buy-dc-power-visa.svg',
+                    logo: 'img/menu-icons/buy-dc-power-visa.svg',
                     text: 'dc power visa',
                     link: '#'
                 },

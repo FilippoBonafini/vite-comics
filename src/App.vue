@@ -41,7 +41,7 @@ export default {
 <!-- SCSS  -->
 <style lang="scss">
 footer {
-    background-image: url(src/assets/img/background/footer-bg.jpg);
+    background-image: url(img/background/footer-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }

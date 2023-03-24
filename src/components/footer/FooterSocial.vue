@@ -9,35 +9,35 @@ export default {
                 {
                     name: 'Facebook',
                     link: '#',
-                    logo: 'src/assets/img/social-icons/footer-facebook.png',
+                    logo: 'img/social-icons/footer-facebook.png',
                     target: '_blank'
 
                 },
                 {
                     name: 'Twitter',
                     link: '#',
-                    logo: 'src/assets/img/social-icons/footer-twitter.png',
+                    logo: 'img/social-icons/footer-twitter.png',
                     target: '_blank'
 
                 },
                 {
                     name: 'You-tube',
                     link: '#',
-                    logo: 'src/assets/img/social-icons/footer-youtube.png',
+                    logo: 'img/social-icons/footer-youtube.png',
                     target: '_blank'
 
                 },
                 {
                     name: 'Pinterest',
                     link: '#',
-                    logo: 'src/assets/img/social-icons/footer-pinterest.png',
+                    logo: 'img/social-icons/footer-pinterest.png',
                     target: '_blank'
 
                 },
                 {
                     name: 'Periscope',
                     link: '#',
-                    logo: 'src/assets/img/social-icons/footer-periscope.png',
+                    logo: 'img/social-icons/footer-periscope.png',
                     target: '_blank'
 
                 }

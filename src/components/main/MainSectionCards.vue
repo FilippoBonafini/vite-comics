@@ -147,6 +147,11 @@ export default {
                 gap: 10px;
                 padding-bottom: 20px;
                 margin: auto;
+
+                .text {
+                    padding: 0 10px;
+                    width: 100%;
+                }
             }
         }
 
