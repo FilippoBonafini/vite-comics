@@ -80,6 +80,7 @@ nav {
         display: flex;
 
         li {
+            font-family: $my-primary-font;
             text-transform: uppercase;
             display: inline-block;
             padding: 50px 20px;

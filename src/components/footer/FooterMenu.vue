@@ -188,9 +188,10 @@ nav {
         padding: 20px;
 
         .liHeader {
-            font-size: 26px;
+            font-size: 23px;
             text-transform: uppercase;
             font-weight: bold;
+            padding-bottom: 8px;
         }
 
         .lilinks a {
