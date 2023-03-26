@@ -136,20 +136,17 @@ export default {
         .cards {
             display: flex;
             flex-wrap: wrap;
-            gap: 10px;
+            justify-content: center;
+            margin: auto;
 
             :deep(.card) {
-                flex-basis: calc(100% / 6 - 10px);
+                margin: 10px;
+                flex-basis: calc(100% / 6 - 20px);
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
-                gap: 10px;
-                padding-bottom: 20px;
-                margin: auto;
 
                 .text {
-                    padding: 0 10px;
+                    padding-top: 5px;
                     width: 100%;
                 }
             }
